@@ -1,0 +1,322 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Tests\\UltraBetting.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Data\\UltraBetting.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Data\\UltraBetting.Data.csproj",
+        "projectName": "UltraBetting.Data",
+        "projectPath": "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Data\\UltraBetting.Data.csproj",
+        "packagesPath": "C:\\Users\\ivyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ivyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Work\\Local Source Nuget Packages\\0.3.260-fbb3f84d51\\0.3.260-fbb3f84d51": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://repo.kapschtraffic.com/api/nuget/nuget--crf--messagebus-client-net-core": {},
+          "https://repo.kapschtraffic.com/api/nuget/nuget--crf--messagebus-messages-net-core": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Service\\UltraBetting.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Service\\UltraBetting.Service.csproj",
+        "projectName": "UltraBetting.Service",
+        "projectPath": "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Service\\UltraBetting.Service.csproj",
+        "packagesPath": "C:\\Users\\ivyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ivyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Work\\Local Source Nuget Packages\\0.3.260-fbb3f84d51\\0.3.260-fbb3f84d51": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://repo.kapschtraffic.com/api/nuget/nuget--crf--messagebus-client-net-core": {},
+          "https://repo.kapschtraffic.com/api/nuget/nuget--crf--messagebus-messages-net-core": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Data\\UltraBetting.Data.csproj": {
+                "projectPath": "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Data\\UltraBetting.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Tests\\UltraBetting.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Tests\\UltraBetting.Tests.csproj",
+        "projectName": "UltraBetting.Tests",
+        "projectPath": "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Tests\\UltraBetting.Tests.csproj",
+        "packagesPath": "C:\\Users\\ivyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ivyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Work\\Local Source Nuget Packages\\0.3.260-fbb3f84d51\\0.3.260-fbb3f84d51": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://repo.kapschtraffic.com/api/nuget/nuget--crf--messagebus-client-net-core": {},
+          "https://repo.kapschtraffic.com/api/nuget/nuget--crf--messagebus-messages-net-core": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Web\\UltraBetting.Api.csproj": {
+                "projectPath": "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Web\\UltraBetting.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.8.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Web\\UltraBetting.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Web\\UltraBetting.Api.csproj",
+        "projectName": "UltraBetting.Api",
+        "projectPath": "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Web\\UltraBetting.Api.csproj",
+        "packagesPath": "C:\\Users\\ivyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ivyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Work\\Local Source Nuget Packages\\0.3.260-fbb3f84d51\\0.3.260-fbb3f84d51": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://repo.kapschtraffic.com/api/nuget/nuget--crf--messagebus-client-net-core": {},
+          "https://repo.kapschtraffic.com/api/nuget/nuget--crf--messagebus-messages-net-core": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net50",
+            "projectReferences": {
+              "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Data\\UltraBetting.Data.csproj": {
+                "projectPath": "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Data\\UltraBetting.Data.csproj"
+              },
+              "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Service\\UltraBetting.Service.csproj": {
+                "projectPath": "C:\\Users\\ivyo\\Desktop\\New folder (2)\\Betting\\UltraBetting.Service\\UltraBetting.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net50",
+          "dependencies": {
+            "HangFire.Autofac": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.17, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.7.17, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.7.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

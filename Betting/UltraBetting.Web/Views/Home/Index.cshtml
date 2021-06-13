@@ -1,0 +1,53 @@
+﻿@model List<Match>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @{
+        foreach (var item in Model)
+        {
+            <table class="table table-striped table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">@item.Name / @item.StartDate.ToString("dd MMMM HH:mm")</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var bet in item.Bets)
+                    {
+                        <tr>
+                            <th scope="row" style="width:100%">@bet.Name</th>
+                        </tr>
+
+                        @if (bet.Odds.All(x => x.SpecialBetValue == null))
+                        {
+                            List<Odd> odds = bet.Odds.Where(x => x.Bet.IsLive).ToList();
+                            foreach (var odd in odds)
+                            {
+                                <tr>
+                                    <th scope="row" style="width:100%">@odd.Name @odd.Value</th>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            var groups = bet.Odds.GroupBy(x => x.SpecialBetValue).FirstOrDefault();
+
+                            foreach (var odd in groups)
+                            {
+                                 <tr>
+                                     <th scope="row" style="width:100%">@odd.Name @odd.SpecialBetValue</th>
+                                 </tr>
+                            }
+                        }
+
+                    }
+
+                </tbody>
+            </table>
+        }
+    }
+</div>

@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ivyo\\Desktop\\New folder (2)\\RookieTask\\RookieTask\\RookieTask.Client.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ivyo\\Desktop\\New folder (2)\\RookieTask\\RookieTask\\RookieTask.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ivyo\\Desktop\\New folder (2)\\RookieTask\\RookieTask\\RookieTask.Client.csproj",
+        "projectName": "RookieTask.Client",
+        "projectPath": "C:\\Users\\ivyo\\Desktop\\New folder (2)\\RookieTask\\RookieTask\\RookieTask.Client.csproj",
+        "packagesPath": "C:\\Users\\ivyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivyo\\Desktop\\New folder (2)\\RookieTask\\RookieTask\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ivyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Work\\Local Source Nuget Packages\\0.3.260-fbb3f84d51\\0.3.260-fbb3f84d51": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://repo.kapschtraffic.com/api/nuget/nuget--crf--messagebus-client-net-core": {},
+          "https://repo.kapschtraffic.com/api/nuget/nuget--crf--messagebus-messages-net-core": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
